@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: 100px;
+	background-color:skyblue;
+    border-radius: 10px;
+}
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 20px;
+  border-top: 10px solid transparent;
+      border-right: 20px solid skyblue;
+      border-bottom: 10px solid transparent;
+}
+
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+</style>
+</head>
+<body>
+    <div class="talk-bubble tri-right left-in">
+        <div class="talktext">
+            <p></p>
+        </div>
+    </div>
+</body>
+</html> 

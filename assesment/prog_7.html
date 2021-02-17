@@ -1,0 +1,61 @@
+<!---- <html>
+<head>
+<style>
+ol {
+  counter-reset: class;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: class;
+  content: counters(class,".") " ";
+}
+</style>
+</head>
+<body>
+
+<ol>
+  <li>item</li>
+  <li>item   
+  <ol>
+    <li>item</li>
+    <li>item</li>
+    <li>item
+    <ol>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ol>
+    </li>
+    <li>item</li>
+  </ol>
+  </li>
+  <li>item</li>
+  <li>item</li>
+</ol>
+
+<ol>
+  <li>item</li>
+  <li>item</li>
+</ol>
+
+</body>
+</html>-->
+
+
+
+<html>
+  <head>
+    <title>blur text</title>
+    <style>
+      #blur {
+        font-size: 50px;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(0,0,0,1.0);
+        }
+    </style>
+  </head>
+  <body>
+    <div id="blur"><b>This text is blurred</b></div>
+  </body>
+</html>

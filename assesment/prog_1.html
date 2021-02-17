@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UNK hotels</title>
+		<style>
+			
+			#border{
+                margin: auto;
+                width:  60%;
+				position: relative;
+				top: 15px;
+				border-top: 2px solid white;
+			}
+			#border{background-color: green;}
+			    li{
+				padding:5px;
+				font-size: 15px;
+				}
+			a {
+  				  text-decoration: none;
+    				  color: white;
+					  padding:5px;
+    				font-size: 25px;
+    				display:inline-block;
+				}
+			
+			ul {
+ 				 display: inline;
+ 				 
+  				padding: 0	;
+			   }
+			ul li {display: inline-block; margin-left: 50px }
+			ul li a:hover {color:yellow}
+			.dropstart:hover .drop {position: absolute;
+					transition: 5s;
+					display:block;
+					width: 150px;
+  				
+				}
+			.drop{
+  				
+  				display: none;
+			  	
+			          }
+			.side{
+				display: none;
+			}
+			ul li ul li { 
+  				background: green; 
+  				display: block; 
+				margin-left:0px;
+				}
+			
+				
+		</style>
+	</head>
+	
+	<body>
+		
+		
+		<div id="border">
+        <ul >
+			<li><a href="#" target="_self">Home</a></li>
+			<li><a href="title.html" target="_self">About</a></li>
+			<ul>
+    			<li class="dropstart"><a href="#">Products</a>
+      				<ul class="drop" >
+        					<li><a href="#">Engineering</a></li>
+				        	<li><a href="#">Telecom</a></li>
+                            <li><a href="#">Energy</a></li>
+                            <li><a href="#">Financy</a></li>
+							<li><a href="#">Consultancy</a></li>
+      				</ul>
+    			</li>
+			</ul>
+			<li><a href="#" target="_self">Services</a></li>
+			<li><a href="#" target="_self">Contact</a></li>
+        </ul>
+        </div>
+	</body>
+</html>		
+			
+			
+			

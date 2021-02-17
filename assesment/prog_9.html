@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>blur text</title>
+    <style>
+      
+        #cf {
+            top:50px;
+            position:relative;
+            height:281px;
+            width:450px;
+            margin:0 auto;
+        }
+
+        #cf img {
+            position:absolute;
+            height:281px;
+            width:450px;
+            left:0;
+            transition: opacity 0s ease-in-out;
+        }
+
+        #cf img.top:hover {
+        opacity:0;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="cf">
+        <img class="bottom" src="https://res.cloudinary.com/demo/image/upload/v1492606756/sample.png" />
+        <img class="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6FCFYK66A2NXXOSsKMURYbzh5sAJ1hBP2bA&usqp=CAU" />
+      </div>
+  </body>
+</html>
